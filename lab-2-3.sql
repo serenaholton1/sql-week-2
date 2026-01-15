@@ -7,3 +7,12 @@
 -- +------+-------------------+
 
 
+select 
+    max(year),
+    name
+
+    from teams
+    
+    where park = 'U.S. Cellular Field'
+    ;
+    
